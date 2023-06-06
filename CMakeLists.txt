@@ -1,0 +1,5 @@
+project(CustomSpellChecker)
+cmake_minimum_required(VERSION 3.16)
+add_compile_options(-Wall -Wextra -pedantic)
+set(CMAKE_CXX_STANDARD_REQUIRED 17)
+add_executable(CustomSpellChecker main.cpp MyDict.cpp MyDict.hpp MyString.cpp MyString.hpp words ihaveadream.txt)
